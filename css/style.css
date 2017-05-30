@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    /*outline: dotted 1px red !important;*/
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    margin: 8% auto;
+    padding: 2em;
+    background-color: #797596;
+    color: floralwhite;
+    font-size: 22px;
+}
+
+.button {
+    background-color: #06D6A0;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: auto;
+    transition-duration: 0.7s;
+    cursor: pointer;
+    max-width: 50%;
+}
+
+.button:hover {
+    background-color: #05FABA;
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+
